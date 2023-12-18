@@ -21,7 +21,7 @@ function tongbu_1() {
 cd ${GITHUB_WORKSPACE}
 sudo rm -rf repogx shangyou
 git clone https://github.com/${GIT_REPOSITORY}.git repogx
-git clone -b main --depth 1 https://github.com/281677160/build-actions shangyou
+git clone -b main --depth 1 https://github.com/shinegod/build-actions shangyou
 
 if [[ ! -d "repogx" ]]; then
   echo -e "\033[31m 本地仓库下载错误 \033[0m"
