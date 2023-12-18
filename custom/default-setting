@@ -18,9 +18,6 @@ fi
 if [[ `grep -c "danshui" /etc/opkg/distfeeds.conf` -ge '1' ]]; then
 	sed -i '/danshui/d' /etc/opkg/distfeeds.conf
 fi
-if [[ `grep -c "helloworld" /etc/opkg/distfeeds.conf` -ge '1' ]]; then
-	sed -i '/helloworld/d' /etc/opkg/distfeeds.conf
-fi
 if [[ `grep -c "OpenClash" /etc/opkg/distfeeds.conf` -ge '1' ]]; then
 	sed -i '/OpenClash/d' /etc/opkg/distfeeds.conf
 fi
